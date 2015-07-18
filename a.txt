@@ -1,0 +1,503 @@
+FETCH:Fetch instruction 0xe3a00000 from address 0
+DECODE: MOV, 0 to R0
+EXECUTE: Nothing
+MEMORY:No memory  operation
+WRITEBACK: Write 0 to R0
+
+FETCH:Fetch instruction 0xe3a01001 from address 4
+DECODE: MOV, 1 to R1
+EXECUTE: Nothing
+MEMORY:No memory  operation
+WRITEBACK: Write 1 to R1
+
+FETCH:Fetch instruction 0xe3a02000 from address 8
+DECODE: MOV, 0 to R2
+EXECUTE: Nothing
+MEMORY:No memory  operation
+WRITEBACK: Write 0 to R2
+
+FETCH:Fetch instruction 0xe352000a from address c
+DECODE: CMP, first operand R2,Second operand #10
+DECODE: Read registers R2 = 0,Immediate = 10
+EXECUTE: CMP 0 and 10
+Flags updated Z :0 , N :1
+MEMORY:No memory  operation
+WRITEBACK: Flags updated
+
+FETCH:Fetch instruction 0xaa000004 from address 10
+DECODE:Branch instruction GE
+EXECUTE: Condition False
+MEMORY:No memory  operation
+WRITEBACK: Nothing to write.
+
+FETCH:Fetch instruction 0xe1a03000 from address 14
+DECODE: MOV, 0 to R3
+EXECUTE: Nothing
+MEMORY:No memory  operation
+WRITEBACK: Write 0 to R3
+
+FETCH:Fetch instruction 0xe1a00001 from address 18
+DECODE: MOV, 1 to R0
+EXECUTE: Nothing
+MEMORY:No memory  operation
+WRITEBACK: Write 1 to R0
+
+FETCH:Fetch instruction 0xe0811003 from address 1c
+DECODE: ADD, first operand R1,Second operand R3, destination register R1
+DECODE: Read registers R1 = 1,R3 = 0
+EXECUTE: ADD 1 and 0
+MEMORY:No memory  operation
+WRITEBACK: Write 1 to R1
+
+FETCH:Fetch instruction 0xe2822001 from address 20
+DECODE: ADD, first operand R2,Second operand #1, destination register R2
+DECODE: Read registers R2 = 0,Immediate = 1
+EXECUTE: ADD 0 and 1
+MEMORY:No memory  operation
+WRITEBACK: Write 1 to R2
+
+FETCH:Fetch instruction 0xeafffff8 from address 24
+DECODE:Branch instruction AL
+EXECUTE: Condition True
+Offset : -8
+MEMORY:No memory  operation
+WRITEBACK: Nothing to write.
+
+FETCH:Fetch instruction 0xe352000a from address c
+DECODE: CMP, first operand R2,Second operand #10
+DECODE: Read registers R2 = 1,Immediate = 10
+EXECUTE: CMP 1 and 10
+Flags updated Z :0 , N :1
+MEMORY:No memory  operation
+WRITEBACK: Flags updated
+
+FETCH:Fetch instruction 0xaa000004 from address 10
+DECODE:Branch instruction GE
+EXECUTE: Condition False
+MEMORY:No memory  operation
+WRITEBACK: Nothing to write.
+
+FETCH:Fetch instruction 0xe1a03000 from address 14
+DECODE: MOV, 1 to R3
+EXECUTE: Nothing
+MEMORY:No memory  operation
+WRITEBACK: Write 1 to R3
+
+FETCH:Fetch instruction 0xe1a00001 from address 18
+DECODE: MOV, 1 to R0
+EXECUTE: Nothing
+MEMORY:No memory  operation
+WRITEBACK: Write 1 to R0
+
+FETCH:Fetch instruction 0xe0811003 from address 1c
+DECODE: ADD, first operand R1,Second operand R3, destination register R1
+DECODE: Read registers R1 = 1,R3 = 1
+EXECUTE: ADD 1 and 1
+MEMORY:No memory  operation
+WRITEBACK: Write 2 to R1
+
+FETCH:Fetch instruction 0xe2822001 from address 20
+DECODE: ADD, first operand R2,Second operand #1, destination register R2
+DECODE: Read registers R2 = 1,Immediate = 1
+EXECUTE: ADD 1 and 1
+MEMORY:No memory  operation
+WRITEBACK: Write 2 to R2
+
+FETCH:Fetch instruction 0xeafffff8 from address 24
+DECODE:Branch instruction AL
+EXECUTE: Condition True
+Offset : -8
+MEMORY:No memory  operation
+WRITEBACK: Nothing to write.
+
+FETCH:Fetch instruction 0xe352000a from address c
+DECODE: CMP, first operand R2,Second operand #10
+DECODE: Read registers R2 = 2,Immediate = 10
+EXECUTE: CMP 2 and 10
+Flags updated Z :0 , N :1
+MEMORY:No memory  operation
+WRITEBACK: Flags updated
+
+FETCH:Fetch instruction 0xaa000004 from address 10
+DECODE:Branch instruction GE
+EXECUTE: Condition False
+MEMORY:No memory  operation
+WRITEBACK: Nothing to write.
+
+FETCH:Fetch instruction 0xe1a03000 from address 14
+DECODE: MOV, 1 to R3
+EXECUTE: Nothing
+MEMORY:No memory  operation
+WRITEBACK: Write 1 to R3
+
+FETCH:Fetch instruction 0xe1a00001 from address 18
+DECODE: MOV, 2 to R0
+EXECUTE: Nothing
+MEMORY:No memory  operation
+WRITEBACK: Write 2 to R0
+
+FETCH:Fetch instruction 0xe0811003 from address 1c
+DECODE: ADD, first operand R1,Second operand R3, destination register R1
+DECODE: Read registers R1 = 2,R3 = 1
+EXECUTE: ADD 2 and 1
+MEMORY:No memory  operation
+WRITEBACK: Write 3 to R1
+
+FETCH:Fetch instruction 0xe2822001 from address 20
+DECODE: ADD, first operand R2,Second operand #1, destination register R2
+DECODE: Read registers R2 = 2,Immediate = 1
+EXECUTE: ADD 2 and 1
+MEMORY:No memory  operation
+WRITEBACK: Write 3 to R2
+
+FETCH:Fetch instruction 0xeafffff8 from address 24
+DECODE:Branch instruction AL
+EXECUTE: Condition True
+Offset : -8
+MEMORY:No memory  operation
+WRITEBACK: Nothing to write.
+
+FETCH:Fetch instruction 0xe352000a from address c
+DECODE: CMP, first operand R2,Second operand #10
+DECODE: Read registers R2 = 3,Immediate = 10
+EXECUTE: CMP 3 and 10
+Flags updated Z :0 , N :1
+MEMORY:No memory  operation
+WRITEBACK: Flags updated
+
+FETCH:Fetch instruction 0xaa000004 from address 10
+DECODE:Branch instruction GE
+EXECUTE: Condition False
+MEMORY:No memory  operation
+WRITEBACK: Nothing to write.
+
+FETCH:Fetch instruction 0xe1a03000 from address 14
+DECODE: MOV, 2 to R3
+EXECUTE: Nothing
+MEMORY:No memory  operation
+WRITEBACK: Write 2 to R3
+
+FETCH:Fetch instruction 0xe1a00001 from address 18
+DECODE: MOV, 3 to R0
+EXECUTE: Nothing
+MEMORY:No memory  operation
+WRITEBACK: Write 3 to R0
+
+FETCH:Fetch instruction 0xe0811003 from address 1c
+DECODE: ADD, first operand R1,Second operand R3, destination register R1
+DECODE: Read registers R1 = 3,R3 = 2
+EXECUTE: ADD 3 and 2
+MEMORY:No memory  operation
+WRITEBACK: Write 5 to R1
+
+FETCH:Fetch instruction 0xe2822001 from address 20
+DECODE: ADD, first operand R2,Second operand #1, destination register R2
+DECODE: Read registers R2 = 3,Immediate = 1
+EXECUTE: ADD 3 and 1
+MEMORY:No memory  operation
+WRITEBACK: Write 4 to R2
+
+FETCH:Fetch instruction 0xeafffff8 from address 24
+DECODE:Branch instruction AL
+EXECUTE: Condition True
+Offset : -8
+MEMORY:No memory  operation
+WRITEBACK: Nothing to write.
+
+FETCH:Fetch instruction 0xe352000a from address c
+DECODE: CMP, first operand R2,Second operand #10
+DECODE: Read registers R2 = 4,Immediate = 10
+EXECUTE: CMP 4 and 10
+Flags updated Z :0 , N :1
+MEMORY:No memory  operation
+WRITEBACK: Flags updated
+
+FETCH:Fetch instruction 0xaa000004 from address 10
+DECODE:Branch instruction GE
+EXECUTE: Condition False
+MEMORY:No memory  operation
+WRITEBACK: Nothing to write.
+
+FETCH:Fetch instruction 0xe1a03000 from address 14
+DECODE: MOV, 3 to R3
+EXECUTE: Nothing
+MEMORY:No memory  operation
+WRITEBACK: Write 3 to R3
+
+FETCH:Fetch instruction 0xe1a00001 from address 18
+DECODE: MOV, 5 to R0
+EXECUTE: Nothing
+MEMORY:No memory  operation
+WRITEBACK: Write 5 to R0
+
+FETCH:Fetch instruction 0xe0811003 from address 1c
+DECODE: ADD, first operand R1,Second operand R3, destination register R1
+DECODE: Read registers R1 = 5,R3 = 3
+EXECUTE: ADD 5 and 3
+MEMORY:No memory  operation
+WRITEBACK: Write 8 to R1
+
+FETCH:Fetch instruction 0xe2822001 from address 20
+DECODE: ADD, first operand R2,Second operand #1, destination register R2
+DECODE: Read registers R2 = 4,Immediate = 1
+EXECUTE: ADD 4 and 1
+MEMORY:No memory  operation
+WRITEBACK: Write 5 to R2
+
+FETCH:Fetch instruction 0xeafffff8 from address 24
+DECODE:Branch instruction AL
+EXECUTE: Condition True
+Offset : -8
+MEMORY:No memory  operation
+WRITEBACK: Nothing to write.
+
+FETCH:Fetch instruction 0xe352000a from address c
+DECODE: CMP, first operand R2,Second operand #10
+DECODE: Read registers R2 = 5,Immediate = 10
+EXECUTE: CMP 5 and 10
+Flags updated Z :0 , N :1
+MEMORY:No memory  operation
+WRITEBACK: Flags updated
+
+FETCH:Fetch instruction 0xaa000004 from address 10
+DECODE:Branch instruction GE
+EXECUTE: Condition False
+MEMORY:No memory  operation
+WRITEBACK: Nothing to write.
+
+FETCH:Fetch instruction 0xe1a03000 from address 14
+DECODE: MOV, 5 to R3
+EXECUTE: Nothing
+MEMORY:No memory  operation
+WRITEBACK: Write 5 to R3
+
+FETCH:Fetch instruction 0xe1a00001 from address 18
+DECODE: MOV, 8 to R0
+EXECUTE: Nothing
+MEMORY:No memory  operation
+WRITEBACK: Write 8 to R0
+
+FETCH:Fetch instruction 0xe0811003 from address 1c
+DECODE: ADD, first operand R1,Second operand R3, destination register R1
+DECODE: Read registers R1 = 8,R3 = 5
+EXECUTE: ADD 8 and 5
+MEMORY:No memory  operation
+WRITEBACK: Write 13 to R1
+
+FETCH:Fetch instruction 0xe2822001 from address 20
+DECODE: ADD, first operand R2,Second operand #1, destination register R2
+DECODE: Read registers R2 = 5,Immediate = 1
+EXECUTE: ADD 5 and 1
+MEMORY:No memory  operation
+WRITEBACK: Write 6 to R2
+
+FETCH:Fetch instruction 0xeafffff8 from address 24
+DECODE:Branch instruction AL
+EXECUTE: Condition True
+Offset : -8
+MEMORY:No memory  operation
+WRITEBACK: Nothing to write.
+
+FETCH:Fetch instruction 0xe352000a from address c
+DECODE: CMP, first operand R2,Second operand #10
+DECODE: Read registers R2 = 6,Immediate = 10
+EXECUTE: CMP 6 and 10
+Flags updated Z :0 , N :1
+MEMORY:No memory  operation
+WRITEBACK: Flags updated
+
+FETCH:Fetch instruction 0xaa000004 from address 10
+DECODE:Branch instruction GE
+EXECUTE: Condition False
+MEMORY:No memory  operation
+WRITEBACK: Nothing to write.
+
+FETCH:Fetch instruction 0xe1a03000 from address 14
+DECODE: MOV, 8 to R3
+EXECUTE: Nothing
+MEMORY:No memory  operation
+WRITEBACK: Write 8 to R3
+
+FETCH:Fetch instruction 0xe1a00001 from address 18
+DECODE: MOV, 13 to R0
+EXECUTE: Nothing
+MEMORY:No memory  operation
+WRITEBACK: Write 13 to R0
+
+FETCH:Fetch instruction 0xe0811003 from address 1c
+DECODE: ADD, first operand R1,Second operand R3, destination register R1
+DECODE: Read registers R1 = 13,R3 = 8
+EXECUTE: ADD 13 and 8
+MEMORY:No memory  operation
+WRITEBACK: Write 21 to R1
+
+FETCH:Fetch instruction 0xe2822001 from address 20
+DECODE: ADD, first operand R2,Second operand #1, destination register R2
+DECODE: Read registers R2 = 6,Immediate = 1
+EXECUTE: ADD 6 and 1
+MEMORY:No memory  operation
+WRITEBACK: Write 7 to R2
+
+FETCH:Fetch instruction 0xeafffff8 from address 24
+DECODE:Branch instruction AL
+EXECUTE: Condition True
+Offset : -8
+MEMORY:No memory  operation
+WRITEBACK: Nothing to write.
+
+FETCH:Fetch instruction 0xe352000a from address c
+DECODE: CMP, first operand R2,Second operand #10
+DECODE: Read registers R2 = 7,Immediate = 10
+EXECUTE: CMP 7 and 10
+Flags updated Z :0 , N :1
+MEMORY:No memory  operation
+WRITEBACK: Flags updated
+
+FETCH:Fetch instruction 0xaa000004 from address 10
+DECODE:Branch instruction GE
+EXECUTE: Condition False
+MEMORY:No memory  operation
+WRITEBACK: Nothing to write.
+
+FETCH:Fetch instruction 0xe1a03000 from address 14
+DECODE: MOV, 13 to R3
+EXECUTE: Nothing
+MEMORY:No memory  operation
+WRITEBACK: Write 13 to R3
+
+FETCH:Fetch instruction 0xe1a00001 from address 18
+DECODE: MOV, 21 to R0
+EXECUTE: Nothing
+MEMORY:No memory  operation
+WRITEBACK: Write 21 to R0
+
+FETCH:Fetch instruction 0xe0811003 from address 1c
+DECODE: ADD, first operand R1,Second operand R3, destination register R1
+DECODE: Read registers R1 = 21,R3 = 13
+EXECUTE: ADD 21 and 13
+MEMORY:No memory  operation
+WRITEBACK: Write 34 to R1
+
+FETCH:Fetch instruction 0xe2822001 from address 20
+DECODE: ADD, first operand R2,Second operand #1, destination register R2
+DECODE: Read registers R2 = 7,Immediate = 1
+EXECUTE: ADD 7 and 1
+MEMORY:No memory  operation
+WRITEBACK: Write 8 to R2
+
+FETCH:Fetch instruction 0xeafffff8 from address 24
+DECODE:Branch instruction AL
+EXECUTE: Condition True
+Offset : -8
+MEMORY:No memory  operation
+WRITEBACK: Nothing to write.
+
+FETCH:Fetch instruction 0xe352000a from address c
+DECODE: CMP, first operand R2,Second operand #10
+DECODE: Read registers R2 = 8,Immediate = 10
+EXECUTE: CMP 8 and 10
+Flags updated Z :0 , N :1
+MEMORY:No memory  operation
+WRITEBACK: Flags updated
+
+FETCH:Fetch instruction 0xaa000004 from address 10
+DECODE:Branch instruction GE
+EXECUTE: Condition False
+MEMORY:No memory  operation
+WRITEBACK: Nothing to write.
+
+FETCH:Fetch instruction 0xe1a03000 from address 14
+DECODE: MOV, 21 to R3
+EXECUTE: Nothing
+MEMORY:No memory  operation
+WRITEBACK: Write 21 to R3
+
+FETCH:Fetch instruction 0xe1a00001 from address 18
+DECODE: MOV, 34 to R0
+EXECUTE: Nothing
+MEMORY:No memory  operation
+WRITEBACK: Write 34 to R0
+
+FETCH:Fetch instruction 0xe0811003 from address 1c
+DECODE: ADD, first operand R1,Second operand R3, destination register R1
+DECODE: Read registers R1 = 34,R3 = 21
+EXECUTE: ADD 34 and 21
+MEMORY:No memory  operation
+WRITEBACK: Write 55 to R1
+
+FETCH:Fetch instruction 0xe2822001 from address 20
+DECODE: ADD, first operand R2,Second operand #1, destination register R2
+DECODE: Read registers R2 = 8,Immediate = 1
+EXECUTE: ADD 8 and 1
+MEMORY:No memory  operation
+WRITEBACK: Write 9 to R2
+
+FETCH:Fetch instruction 0xeafffff8 from address 24
+DECODE:Branch instruction AL
+EXECUTE: Condition True
+Offset : -8
+MEMORY:No memory  operation
+WRITEBACK: Nothing to write.
+
+FETCH:Fetch instruction 0xe352000a from address c
+DECODE: CMP, first operand R2,Second operand #10
+DECODE: Read registers R2 = 9,Immediate = 10
+EXECUTE: CMP 9 and 10
+Flags updated Z :0 , N :1
+MEMORY:No memory  operation
+WRITEBACK: Flags updated
+
+FETCH:Fetch instruction 0xaa000004 from address 10
+DECODE:Branch instruction GE
+EXECUTE: Condition False
+MEMORY:No memory  operation
+WRITEBACK: Nothing to write.
+
+FETCH:Fetch instruction 0xe1a03000 from address 14
+DECODE: MOV, 34 to R3
+EXECUTE: Nothing
+MEMORY:No memory  operation
+WRITEBACK: Write 34 to R3
+
+FETCH:Fetch instruction 0xe1a00001 from address 18
+DECODE: MOV, 55 to R0
+EXECUTE: Nothing
+MEMORY:No memory  operation
+WRITEBACK: Write 55 to R0
+
+FETCH:Fetch instruction 0xe0811003 from address 1c
+DECODE: ADD, first operand R1,Second operand R3, destination register R1
+DECODE: Read registers R1 = 55,R3 = 34
+EXECUTE: ADD 55 and 34
+MEMORY:No memory  operation
+WRITEBACK: Write 89 to R1
+
+FETCH:Fetch instruction 0xe2822001 from address 20
+DECODE: ADD, first operand R2,Second operand #1, destination register R2
+DECODE: Read registers R2 = 9,Immediate = 1
+EXECUTE: ADD 9 and 1
+MEMORY:No memory  operation
+WRITEBACK: Write 10 to R2
+
+FETCH:Fetch instruction 0xeafffff8 from address 24
+DECODE:Branch instruction AL
+EXECUTE: Condition True
+Offset : -8
+MEMORY:No memory  operation
+WRITEBACK: Nothing to write.
+
+FETCH:Fetch instruction 0xe352000a from address c
+DECODE: CMP, first operand R2,Second operand #10
+DECODE: Read registers R2 = 10,Immediate = 10
+EXECUTE: CMP 10 and 10
+Flags updated Z :1 , N :0
+MEMORY:No memory  operation
+WRITEBACK: Flags updated
+
+FETCH:Fetch instruction 0xaa000004 from address 10
+DECODE:Branch instruction GE
+EXECUTE: Condition True
+Offset : 4
+MEMORY:No memory  operation
+WRITEBACK: Nothing to write.
+
